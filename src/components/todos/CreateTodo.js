@@ -9,10 +9,10 @@ class CreateTodo extends Component {
   };
 }
  
-handleChange(event) {
-  this.setState({
-    text: event.target.value
-  });
+handleChange = event => {
+    this.setState({
+        text: event.target.value
+    });
 };
   
   
