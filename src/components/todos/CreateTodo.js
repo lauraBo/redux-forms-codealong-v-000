@@ -28,6 +28,7 @@ handleChange = event => {
           </p>
           <input type="submit" />
         </form>
+        {this.state.text}
       </div>
     )
   }
